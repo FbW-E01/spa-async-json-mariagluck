@@ -23,4 +23,4 @@ for (const section in recipes) {
 
     });
 }
-//once elements and class names added in each section, style is done in CSS
+//elements and class names have been added in each section, and style is done in CSS
