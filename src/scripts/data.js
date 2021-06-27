@@ -1,13 +1,6 @@
 const recipes = {
     cakes: [{
         type: "cakes",
-        author: "John Smith",
-        title: "Deliciously Decadent",
-        ingredients: ["chocolate", "milk", "flour", "vegetable oil", "sugar", "butter"],
-        image: "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/easy_chocolate_cake_31070_16x9.jpg"
-    },
-    {
-        type: "cakes",
         author: "Jane Doe",
         title: "Ridiculous Raspberry",
         ingredients: ["raspberries", "milk", "flour", "vegetable oil", "sugar", "butter"],
@@ -19,14 +12,21 @@ const recipes = {
         title: "Famous NY Cheese Cake",
         ingredients: ["cream cheese", "milk", "flour", "sugar", "butter", "biscuits"],
         image: "https://www.tasteofhome.com/wp-content/uploads/2017/10/Vanilla-Cheesecake_EXPS_THLS17_205125_D02_23_3b-1.jpg"
+    },
+    {
+        type: "cakes",
+        author: "John Smith",
+        title: "Deliciously Decadent",
+        ingredients: ["chocolate", "milk", "flour", "vegetable oil", "sugar", "butter"],
+        image: "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/easy_chocolate_cake_31070_16x9.jpg"
     }
     ],
-    biscuits: [{
+    biscuits: [ {
         type: "biscuits",
-        author: "Vincent Grey",
-        title: "Ginger Snaps",
-        ingredients: ["ginger", "flour", "butter", "sugar"],
-        image: "https://www.joyofbaking.com/images/facebook/gingersnaps1.jpg"
+        author: "Lily Shanes",
+        title: "Millionaires",
+        ingredients: ["sugar", "flour", "butter", "condensed milk", "milk chocolate"],
+        image: "https://i0.wp.com/everydaycooks.co.uk/wp-content/uploads/2017/10/millionaire-shortbread-h2.jpg?fit=1800%2C1360&ssl=1"
     },
     {
         type: "biscuits",
@@ -37,10 +37,10 @@ const recipes = {
     },
     {
         type: "biscuits",
-        author: "Lily Shanes",
-        title: "Millionaires",
-        ingredients: ["sugar", "flour", "butter", "condensed milk", "milk chocolate"],
-        image: "https://i0.wp.com/everydaycooks.co.uk/wp-content/uploads/2017/10/millionaire-shortbread-h2.jpg?fit=1800%2C1360&ssl=1"
+        author: "Vincent Grey",
+        title: "Ginger Snaps",
+        ingredients: ["ginger", "flour", "butter", "sugar"],
+        image: "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2013/12/gengersnaps-497812218-770x533-1.jpg"
     }
     ],
     bread: [{
@@ -66,3 +66,7 @@ const recipes = {
     }
     ],
 };
+
+//export default JSON.stringify(recipes); 
+//export const recipesJSON = JSON.stringify(recipes, null, 2);
+ export const recipesJSON = JSON.stringify(recipes);
