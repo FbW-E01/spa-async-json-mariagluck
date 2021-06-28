@@ -22,5 +22,35 @@ for (const section in recipes) {
         </div>`
 
     });
+
 }
+
 //elements and class names have been added in each section, and style is done in CSS
+
+
+//OTHER VERSION bellow:
+
+// const cakes = document.querySelector("#cakes");
+// const biscuits = document.querySelector("#biscuits");
+// const bread = document.querySelector("#bread");
+
+//  function populate(item, element) {
+//      console.log(item);
+
+//      const html = ` <div class="card m-3">
+//         <img src="${item.image}" class="card-img-top">
+//         <div class="card-body">
+//           <h5 class="card-title">${item.title}</h5>
+//           <p class="card-text">${item.author}<hr>Ingredients: ${item.ingredients.join(", ")}.</p>
+//         </div>
+//       </div>`;
+//    const helper = document.createElement("div");
+//    helper.innerHTML = html;
+//    element.appendChild(helper.firstChild);
+//  }
+
+//  populate(recipes.cakes[0], cakes);
+//  populate(recipes.biscuits[0], biscuits);
+//  populate(recipes.bread[0], bread);
+
+ //elements and class names have been added in each section, and style is done in CSS
